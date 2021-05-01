@@ -1,0 +1,30 @@
+
+<html>
+    <link type="text/css" rel="stylesheet" href="student.css">
+    <script>
+    function success()
+        {
+           alert('successfully uploaded..');
+        }
+    
+    </script>
+    <body>
+<div class="form">
+    <p>MIMATIANS Creative-Gallery</p>
+        <form action="" id="form1" name="" method="post">
+        <input type="text" name="user_id" id="user_id" placeholder="Enter your Name">
+            
+            <br>
+            
+            <input type="text" class="wname" placeholder="Enter your work name">
+            
+            <br>
+            <textarea placeholder="caption for your work"></textarea><br>
+            <input type="file" class="work" >
+            <button id="login" name="login" value="upload" onclick="success()">upload</button>
+            <p class="message">Not Registered?<a href="signup.php">Create an account</a> </p>
+            
+        </form>
+            </div>
+        </body>
+    </html>
